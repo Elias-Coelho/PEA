@@ -1,0 +1,11 @@
+frase = "estamos estudando python"
+print(frase)
+print ("Tamanho ",len(frase))
+print("Existem: ",frase.count("e"),"letras e na frase")
+print("Foi encontrada a string py na posição: ",frase.find("py"))
+print("Todos os 1° caracteres em maiúsculo ",frase.title())
+print("A frase sem espaço: ",frase.strip())
+print("Todas as letras maiúsuclas: ",frase.upper())
+print("Todas as letras minúsculas: ",frase.lower())
+print("1° caracter maiúsculo: ",frase.capitalize())
+print("essa frase possui só letras? ",frase.isalpha())
